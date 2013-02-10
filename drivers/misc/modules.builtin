@@ -1,0 +1,3 @@
+kernel/drivers/misc/akm8973.ko
+kernel/drivers/misc/a1026.ko
+kernel/drivers/misc/bma150_spi.ko

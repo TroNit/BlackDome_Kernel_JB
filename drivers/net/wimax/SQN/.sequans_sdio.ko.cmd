@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/SQN/sequans_sdio.ko := arm-eabi-ld -EL -r  -T /home/tronit/android_kernel_htc_qsd8k-jellybean/scripts/module-common.lds --build-id  -o drivers/net/wimax/SQN/sequans_sdio.ko drivers/net/wimax/SQN/sequans_sdio.o drivers/net/wimax/SQN/sequans_sdio.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/wimaxdbg/wimaxdbg.ko := arm-eabi-ld -EL -r  -T /home/tronit/android_kernel_htc_qsd8k-jellybean/scripts/module-common.lds --build-id  -o drivers/net/wimax/wimaxdbg/wimaxdbg.ko drivers/net/wimax/wimaxdbg/wimaxdbg.o drivers/net/wimax/wimaxdbg/wimaxdbg.mod.o
