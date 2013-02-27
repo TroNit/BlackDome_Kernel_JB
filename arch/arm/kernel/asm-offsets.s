@@ -13,13 +13,13 @@
 @	compiled by GNU C version 4.4.3, GMP version 4.2.4, MPFR version 2.4.1.
 @ GGC heuristics: --param ggc-min-expand=93 --param ggc-min-heapsize=119146
 @ options passed:  -nostdinc
-@ -I/home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include
+@ -I/home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include
 @ -Iinclude -Iarch/arm/mach-msm/include -iprefix
-@ /home/tronit/opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/
+@ /home/tronit/opt/Android_Toolchains-arm-eabi-4.4.3/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/
 @ -D__USES_INITFINI__ -D__KERNEL__ -D__LINUX_ARM_ARCH__=7 -Uarm
 @ -DKBUILD_STR(s)=#s -DKBUILD_BASENAME=KBUILD_STR(asm_offsets)
 @ -DKBUILD_MODNAME=KBUILD_STR(asm_offsets) -isystem
-@ /home/tronit/opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include
+@ /home/tronit/opt/Android_Toolchains-arm-eabi-4.4.3/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include
 @ -include include/generated/autoconf.h -MD
 @ arch/arm/kernel/.asm-offsets.s.d arch/arm/kernel/asm-offsets.c
 @ -mlittle-endian -marm -mapcs -mno-sched-prolog -mabi=aapcs-linux

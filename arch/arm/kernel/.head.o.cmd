@@ -1,4 +1,4 @@
-cmd_arch/arm/kernel/head.o := arm-eabi-gcc -Wp,-MD,arch/arm/kernel/.head.o.d  -nostdinc -isystem /home/tronit/opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float     -DTEXT_OFFSET=0x00008000   -c -o arch/arm/kernel/head.o arch/arm/kernel/head.S
+cmd_arch/arm/kernel/head.o := arm-eabi-gcc -Wp,-MD,arch/arm/kernel/.head.o.d  -nostdinc -isystem /home/tronit/opt/Android_Toolchains-arm-eabi-4.4.3/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float     -DTEXT_OFFSET=0x00008000   -c -o arch/arm/kernel/head.o arch/arm/kernel/head.S
 
 source_arch/arm/kernel/head.o := arch/arm/kernel/head.S
 
@@ -17,7 +17,7 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/cpu/bpredict/disable.h) \
     $(wildcard include/config/cpu/icache/disable.h) \
     $(wildcard include/config/emulate/domain/manager/v7.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/unified.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
     $(wildcard include/config/thumb2/kernel.h) \
   include/linux/linkage.h \
@@ -27,24 +27,24 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/profile/all/branches.h) \
     $(wildcard include/config/enable/must/check.h) \
     $(wildcard include/config/enable/warn/deprecated.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/linkage.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/linkage.h \
   include/linux/init.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/assembler.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/assembler.h \
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/trace/irqflags.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ptrace.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hwcap.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/domain.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hwcap.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/cpu/use/domains.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/asm-offsets.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/asm-offsets.h \
   include/generated/asm-offsets.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/memory.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/memory.h \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/highmem.h) \
@@ -72,21 +72,21 @@ deps_arch/arm/kernel/head.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/types.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitsperlong.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sizes.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/discontigmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/thread_info.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fpstate.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/system.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/system.h \
     $(wildcard include/config/function/graph/tracer.h) \
     $(wildcard include/config/microp/common.h) \
     $(wildcard include/config/cpu/32v6k.h) \

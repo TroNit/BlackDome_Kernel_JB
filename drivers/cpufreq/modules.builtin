@@ -10,4 +10,6 @@ kernel/drivers/cpufreq/cpufreq_lagfree.ko
 kernel/drivers/cpufreq/cpufreq_badass.ko
 kernel/drivers/cpufreq/cpufreq_lionheart.ko
 kernel/drivers/cpufreq/cpufreq_savagedzen.ko
+kernel/drivers/cpufreq/cpufreq_hyper.ko
+kernel/drivers/cpufreq/cpufreq_smartass.ko
 kernel/drivers/cpufreq/freq_table.ko

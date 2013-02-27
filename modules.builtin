@@ -43,7 +43,11 @@ kernel/crypto/authenc.ko
 kernel/crypto/rng.ko
 kernel/crypto/krng.ko
 kernel/block/blk-cgroup.ko
+kernel/block/deadline-iosched.ko
+kernel/block/cfq-iosched.ko
 kernel/block/bfq-iosched.ko
+kernel/block/sio-iosched.ko
+kernel/block/vr-iosched.ko
 kernel/drivers/base/firmware_class.ko
 kernel/drivers/block/loop.ko
 kernel/drivers/block/cryptoloop.ko
@@ -60,6 +64,8 @@ kernel/drivers/cpufreq/cpufreq_lagfree.ko
 kernel/drivers/cpufreq/cpufreq_badass.ko
 kernel/drivers/cpufreq/cpufreq_lionheart.ko
 kernel/drivers/cpufreq/cpufreq_savagedzen.ko
+kernel/drivers/cpufreq/cpufreq_hyper.ko
+kernel/drivers/cpufreq/cpufreq_smartass.ko
 kernel/drivers/cpufreq/freq_table.ko
 kernel/drivers/gpu/msm/msm_kgsl_core.ko
 kernel/drivers/gpu/msm/msm_adreno.ko

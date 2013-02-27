@@ -1,4 +1,4 @@
-cmd_net/ipv4/raw.o := arm-eabi-gcc -Wp,-MD,net/ipv4/.raw.o.d  -nostdinc -isystem /home/tronit/opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -pipe -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-uninitialized -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(raw)"  -D"KBUILD_MODNAME=KBUILD_STR(raw)" -c -o net/ipv4/raw.o net/ipv4/raw.c
+cmd_net/ipv4/raw.o := arm-eabi-gcc -Wp,-MD,net/ipv4/.raw.o.d  -nostdinc -isystem /home/tronit/opt/Android_Toolchains-arm-eabi-4.4.3/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -pipe -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-uninitialized -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(raw)"  -D"KBUILD_MODNAME=KBUILD_STR(raw)" -c -o net/ipv4/raw.o net/ipv4/raw.c
 
 source_net/ipv4/raw.o := net/ipv4/raw.c
 
@@ -11,9 +11,9 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/types.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitsperlong.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
@@ -27,11 +27,11 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/posix_types.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/atomic.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/posix_types.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/smp.h) \
     $(wildcard include/config/generic/atomic64.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/system.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/system.h \
     $(wildcard include/config/function/graph/tracer.h) \
     $(wildcard include/config/microp/common.h) \
     $(wildcard include/config/cpu/32v6k.h) \
@@ -42,33 +42,33 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/cpu/sa1100.h) \
     $(wildcard include/config/cpu/sa110.h) \
   include/linux/linkage.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/linkage.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/irqflags.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ptrace.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/irqflags.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hwcap.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/outercache.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hwcap.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
   include/asm-generic/atomic-long.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/byteorder.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/swab.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/current.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/current.h \
   include/linux/thread_info.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/last/bit.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitops.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bitops.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -76,26 +76,26 @@ deps_net/ipv4/raw.o := \
   include/asm-generic/bitops/arch_hweight.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/thread_info.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fpstate.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/domain.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/cpu/use/domains.h) \
     $(wildcard include/config/emulate/domain/manager/v7.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/uaccess.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/uaccess.h \
     $(wildcard include/config/mmu.h) \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/tronit/opt/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include/stdarg.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/string.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/errno.h \
+  /home/tronit/opt/Android_Toolchains-arm-eabi-4.4.3/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include/stdarg.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/string.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/memory.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/highmem.h) \
@@ -118,17 +118,17 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/arch/msm/scorpion.h) \
     $(wildcard include/config/arch/msm/krait.h) \
     $(wildcard include/config/arch/msm7x27.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sizes.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/discontigmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/unified.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ioctls.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ioctls.h \
   include/asm-generic/ioctls.h \
   include/linux/ioctl.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ioctl.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/slab.h \
     $(wildcard include/config/slab/debug.h) \
@@ -174,10 +174,10 @@ deps_net/ipv4/raw.o := \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/processor.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/processor.h \
     $(wildcard include/config/have/hw/breakpoint.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hw_breakpoint.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cache.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hw_breakpoint.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/kernel.h \
@@ -195,13 +195,13 @@ deps_net/ipv4/raw.o := \
   include/linux/dynamic_debug.h \
   include/linux/jump_label.h \
     $(wildcard include/config/jump/label.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bug.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/div64.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/div64.h \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
@@ -232,7 +232,7 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/page.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -241,7 +241,7 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/memory/hotplug/sparse.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/glue.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -266,7 +266,7 @@ deps_net/ipv4/raw.o := \
   include/linux/mutex-debug.h \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/rwsem.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/rwsem.h \
   include/linux/srcu.h \
   include/linux/topology.h \
     $(wildcard include/config/sched/smt.h) \
@@ -285,11 +285,11 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/percpu.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/topology.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -331,16 +331,16 @@ deps_net/ipv4/raw.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/param.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/timex.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/timex.h \
   arch/arm/mach-msm/include/mach/timex.h \
   include/linux/aio_abi.h \
   include/linux/uio.h \
   include/linux/sockios.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sockios.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sockios.h \
   include/linux/socket.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/socket.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/socket.h \
   include/linux/in.h \
   include/linux/mroute.h \
   include/linux/pim.h \
@@ -362,12 +362,12 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/debug/set/module/ronx.h) \
   include/linux/stat.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/stat.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/stat.h \
   include/linux/kmod.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/elf.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/user.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/elf.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kobject_ns.h \
@@ -376,7 +376,7 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
     $(wildcard include/config/ppc64.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/module.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/linux/netdevice.h \
@@ -421,27 +421,27 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/mmu/notifier.h) \
     $(wildcard include/config/transparent/hugepage.h) \
   include/linux/auxvec.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/auxvec.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/auxvec.h \
   include/linux/prio_tree.h \
   include/linux/rbtree.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/mmu.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
   include/linux/net.h \
   include/linux/random.h \
   include/linux/irqnr.h \
     $(wildcard include/config/generic/hardirqs.h) \
   include/linux/fcntl.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fcntl.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/sysctl.h \
   include/linux/ratelimit.h \
   include/linux/textsearch.h \
   include/linux/err.h \
   include/net/checksum.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/checksum.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/checksum.h \
   include/linux/in6.h \
   include/linux/dmaengine.h \
     $(wildcard include/config/async/tx/enable/channel/switch.h) \
@@ -459,7 +459,7 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/pm/runtime.h) \
     $(wildcard include/config/pm/ops.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/device.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
   include/linux/dma-mapping.h \
@@ -470,7 +470,7 @@ deps_net/ipv4/raw.o := \
   include/linux/bug.h \
   include/linux/scatterlist.h \
     $(wildcard include/config/debug/sg.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/scatterlist.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/scatterlist.h \
   include/asm-generic/scatterlist.h \
     $(wildcard include/config/need/sg/dma/length.h) \
   include/linux/mm.h \
@@ -484,10 +484,10 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/debug/locking/api/selftests.h) \
   include/linux/range.h \
   include/linux/bit_spinlock.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/pgtable.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/pgtable.h \
     $(wildcard include/config/highpte.h) \
   include/asm-generic/4level-fixup.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/proc-fns.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/proc-fns.h \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm720t.h) \
     $(wildcard include/config/cpu/arm740t.h) \
@@ -506,10 +506,10 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/cpu/v6.h) \
     $(wildcard include/config/cpu/v7.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cpu-single.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cpu-single.h \
   arch/arm/mach-msm/include/mach/vmalloc.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/pgtable-hwdef.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/tlbflush.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/pgtable-hwdef.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/tlbflush.h \
     $(wildcard include/config/smp/on/up.h) \
     $(wildcard include/config/cpu/tlb/v3.h) \
     $(wildcard include/config/cpu/tlb/v4wt.h) \
@@ -557,17 +557,17 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/debug/stack/usage.h) \
     $(wildcard include/config/cgroup/sched.h) \
   include/linux/capability.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cputime.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ipcbuf.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sembuf.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/ipcbuf.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/signal.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sigcontext.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/siginfo.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/sigcontext.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/pid.h \
   include/linux/proportions.h \
@@ -580,7 +580,7 @@ deps_net/ipv4/raw.o := \
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/resource.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/high/res/timers.h) \
@@ -602,9 +602,9 @@ deps_net/ipv4/raw.o := \
   include/linux/huge_mm.h \
   include/linux/vmstat.h \
     $(wildcard include/config/vm/event/counters.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/io.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/io.h \
   arch/arm/mach-msm/include/mach/io.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/dma-mapping.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/dma-mapping.h \
   include/linux/dma-debug.h \
     $(wildcard include/config/dma/api/debug.h) \
   include/asm-generic/dma-coherent.h \
@@ -616,7 +616,7 @@ deps_net/ipv4/raw.o := \
   include/linux/miscdevice.h \
   include/linux/major.h \
   include/linux/delay.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/delay.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/delay.h \
   include/linux/ethtool.h \
   include/linux/compat.h \
   include/net/net_namespace.h \
@@ -697,9 +697,9 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/bkl.h) \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hardirq.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/hardirq.h \
     $(wildcard include/config/local/timers.h) \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/irq.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/irq.h \
   arch/arm/mach-msm/include/mach/irqs.h \
     $(wildcard include/config/arch/qsd8x50.h) \
     $(wildcard include/config/mach/bravo.h) \
@@ -727,14 +727,14 @@ deps_net/ipv4/raw.o := \
     $(wildcard include/config/change.h) \
   include/linux/binfmts.h \
   include/linux/shm.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/shmparam.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/shmbuf.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/shmparam.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/shmbuf.h \
   include/linux/msg.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/msgbuf.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/msgbuf.h \
   include/linux/filter.h \
   include/linux/rculist_nulls.h \
   include/linux/poll.h \
-  /home/tronit/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/poll.h \
+  /home/tronit/KERNEL_BLACKDOME_4.2-4.1/android_kernel_htc_qsd8k-jellybean/arch/arm/include/asm/poll.h \
   include/asm-generic/poll.h \
   include/linux/atomic.h \
   include/net/dst.h \
